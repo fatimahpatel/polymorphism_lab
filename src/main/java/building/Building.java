@@ -1,25 +1,17 @@
 package building;
 
 public abstract class Building {
-    private String name;
     private String dateOfConstruction;
     private int numberOfFloors;
     private int numberOfRooms;
 
-    public Building(String name, String dateOfConstruction, int numberOfFloors, int numberOfRoom){
-        this.name = name;
+    public Building(String dateOfConstruction, int numberOfFloors, int numberOfRoom){
         this.dateOfConstruction = dateOfConstruction;
         this.numberOfFloors = numberOfFloors;
         this.numberOfRooms = numberOfRoom;
     }
 
     //getters and setters
-    public String getName(){
-        return name;
-    }
-    public void setName(String name){
-        this.name = name;
-    }
 
     public String getDateOfConstruction(){
         return dateOfConstruction;

@@ -1,4 +1,5 @@
 package building;
 
-public class Bungalow{
+public class Bungalow extends Building{
+
 }
