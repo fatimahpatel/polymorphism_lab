@@ -6,8 +6,8 @@ public class BuildingTest {
 
     private Building building;
 
-
     @BeforeEach
+    public void setUp(){}
 
 
 
