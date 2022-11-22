@@ -25,7 +25,7 @@ public class Street {
         return buildings;
     }
     public void setBuildings(ArrayList<Building> buildings){
-        this.buildings = buildings
+        this.buildings = buildings;
     }
 
 
