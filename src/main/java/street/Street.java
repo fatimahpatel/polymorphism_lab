@@ -24,8 +24,13 @@ public class Street {
     public ArrayList<Building> getBuildings(){
         return buildings;
     }
-    public void setBuildings(ArrayList<Building> buildings){
-        this.buildings = buildings;
+    public void setBuildings(ArrayList<Building> building){
+        this.buildings = building;
+    }
+
+
+    public void addBuilding(Building building) {
+        this.buildings.add(building);
     }
 
 

@@ -8,4 +8,5 @@ public class Office extends Building {
         super(dateOfConstruction, numberOfFloors, numberOfRooms);
     }
 
+
 }
