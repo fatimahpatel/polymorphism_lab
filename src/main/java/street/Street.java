@@ -33,6 +33,9 @@ public class Street {
         this.buildings.add(building);
     }
 
+    public int countBuilidngsInStreet(){
+        return this.buildings.size();
+    }
 
 
 
