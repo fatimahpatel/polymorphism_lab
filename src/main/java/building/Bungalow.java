@@ -1,4 +1,4 @@
 package building;
 
-public class Bungalow {
+public class Bungalow{
 }

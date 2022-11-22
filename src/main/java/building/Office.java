@@ -1,4 +1,5 @@
 package building;
 
-public class Office{
+public class Office {
+
 }

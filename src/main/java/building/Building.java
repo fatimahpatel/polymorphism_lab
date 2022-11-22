@@ -1,6 +1,6 @@
 package building;
 
-public class Building {
+public abstract class Building {
     private String name;
     private String dateOfConstruction;
     private int numberOfFloors;
