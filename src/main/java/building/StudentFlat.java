@@ -4,7 +4,7 @@ public class StudentFlat extends Building {
 
     public StudentFlat (String dateOfConstruction, int numberOfFloors, int numberOfRooms, int numberOfPartiesHosted){
         super(dateOfConstruction, numberOfFloors, numberOfRooms);
-        this. numberOfPartiesHosted = numberOfPartiesHosted;
+        this.numberOfPartiesHosted = numberOfPartiesHosted;
     }
 
 
