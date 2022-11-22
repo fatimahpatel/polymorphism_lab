@@ -6,7 +6,7 @@ public class Bungalow extends Building{
 
     public Bungalow (String dateOfConstruction, int numberOfFloors, int numberOfRooms, boolean centralHeating){
         super(dateOfConstruction, numberOfFloors, numberOfRooms);
-        this.centralHeating = centralHeating
+        this.centralHeating = centralHeating;
     }
 
 }
