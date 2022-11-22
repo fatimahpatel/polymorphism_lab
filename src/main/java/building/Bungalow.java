@@ -1,5 +1,6 @@
 package building;
 
-public class Bungalow extends Building{
+public class Bungalow{
+    private boolean centralHeating;
 
 }
